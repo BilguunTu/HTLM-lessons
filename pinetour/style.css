@@ -4,12 +4,142 @@ body {
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
-header {
-  width: 100vw;
-  height: 100px;
-  margin: auto;
+.header {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.hearder--black {
   background-color: black;
   color: white;
+}
+
+.main {
+  border: 2px solid red;
+}
+
+.trips {
+  text-align: center;
+}
+.trips--size {
+  margin-top: 80px;
+  margin-bottom: 274px;
+}
+.trip__title {
+  font-family: sans-serif;
+}
+.trip__title--size {
+  font-weight: 800;
+  font-size: 80px;
+  width: 400px;
+  margin: auto;
+  padding: 0 0 40px 0;
+}
+.trip__title--color {
+  color: #303030;
+}
+
+.trip_img {
+  display: inline;
+}
+
+.trip_img--size {
+  padding: 0 33px;
+}
+
+.trip_img--color {
+  background-color: rgba(48, 48, 48, 0.3);
+}
+
+/* this is tours scope */
+
+.tours {
+  border: 1px solid blue;
+  margin: 0 122px;
+  position: relative;
+}
+
+.tours__text {
+  display: inline-block;
+}
+
+.tours__texts {
+  width: 360px;
+  margin-bottom: 124px;
+}
+
+.tours__text--title {
+  font-family: serif;
+}
+
+.title--green {
+  color: #1ac74a;
+}
+
+.title__size-title {
+  font-size: 32px;
+  line-height: 32px;
+}
+.title__text--subtitle {
+}
+.title--black {
+  color: #303030;
+}
+.title__size-subtitle {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.tours__buttons {
+  width: 400px;
+}
+
+.tours__button {
+  border: 1px solid #101010;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.tours__button:hover {
+  background-color: #000;
+  color: azure;
+}
+
+.tours__button-title {
+  font-size: 18px;
+  display: inline-block;
+}
+
+.tours__button--text {
+  display: inline;
+  width: 231px;
+  text-align: end;
+  align-content: space-between;
+}
+
+.button--size {
+  font-size: 18px;
+  line-height: 18px;
+  color: #303030;
+}
+.city {
+  color: #777777;
+  padding: 8px 0;
+}
+/* this tours image */
+
+.tours__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 598px;
+  height: 894px;
+  background-color: #303030;
+  border-radius: 12px;
 }
