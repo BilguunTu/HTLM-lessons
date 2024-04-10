@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+.align-items {
+  align-items: center;
+}
+.justify-content {
+  justify-content: center;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.container {
+  width: 90%;
+  border: 1px solid greenyellow;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news {
+  display: flex;
+}
+
+.news ul {
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin: 0 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.weather {
+  display: flex;
+}
