@@ -11,8 +11,8 @@
     <title>GoGo</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <div class="container flex align-items flex-direction">
+      <header class="header flex">
         <div class="flex align-items">
           <img
             src="https://mgl.gogo.mn/newsn/v4/images/gogo-logo.345096b3.png"
@@ -25,43 +25,43 @@
               <li>
                 <a href="">
                   Мэдээ
-                  <i class="fa fa-arrow-down"></i>
+                  <i class="fa fa-angle-down"></i>
                 </a>
               </li>
               <li>
                 <a href="">
                   GoGo булан
-                  <i class="fa fa-arrow-down"></i>
+                  <i class="fa fa-angle-down"></i>
                 </a>
               </li>
               <li>
                 <a href="">
                   Үзэх
-                  <i class="fa fa-arrow-down"></i>
+                  <i class="fa fa-angle-down"></i>
                 </a>
               </li>
               <li>
                 <a href="">
                   Хэв маяг
-                  <i class="fa fa-arrow-down"></i>
+                  <i class="fa fa-angle-down"></i>
                 </a>
               </li>
               <li>
                 <a href="">
                   English
-                  <i class="fa fa-arrow-down"></i>
+                  <i class="fa fa-angle-down"></i>
                 </a>
               </li>
             </ul>
-            <div>
+            <div class="navSearchIcon">
               <i class="fa fa-search"></i>
             </div>
           </div>
         </div>
-        <div class="flex align-items gap-30">
-          <div>
-            <p>Цаг агаар</p>
-            <div>
+        <div class="header-right flex align-items gap-30">
+          <div class="flex flex-direction justify-content">
+            <p class="navWeatherText">Цаг агаар</p>
+            <div class="flex align-items">
               <img
                 src="https://mgl.gogo.mn/newsn/v4/images/sun-icon.6f23ee90.svg"
                 alt="sun"
@@ -69,8 +69,8 @@
               <span>16</span>
             </div>
           </div>
-          <div>
-            <p>Зурхай</p>
+          <div class="flex flex-direction">
+            <p class="navWeatherText">Зурхай</p>
             <div>
               <img
                 src="https://mgl.gogo.mn/newsn/v4/images/calendar-icon.7e594c4b.svg"
@@ -79,52 +79,135 @@
               <span>16</span>
             </div>
           </div>
-          <div>
-            <p>Валютын ханш</p>
+          <div class="flex flex-direction">
+            <p class="navWeatherText">Валютын ханш</p>
             <div>
-              <span>$</span>
+              <span class="navWeatherDollar">$</span>
               <span>16</span>
             </div>
           </div>
         </div>
       </header>
-      <div class="gogo">
-        <div>
-          <div>
-            <div>
-              <span>Түүхэн зураг</span>
-            </div>
-            <h2>
-              Түүхэн баримт: Төрийн алба хаах боломжтой залуусыг сурган
-              боловсруулах анхны хичээл 100 жилийн өмнө эхэлжээ
-            </h2>
-            <span
-              >Монгол Улсад төрийн удирдах албан хаагчдыг бэлтгэдэг Удирдлагын
-              академи байгуулагдсаны 100 жилийн ой тохиож байна.
-            </span>
-            <div>
-              <button>
-                <i class="fa fa-share"></i>
-                <span>15</span>
-              </button>
+
+      <div class="gogo flex justify-content">
+        <div class="gogo-home">
+          <div class="flex">
+            <div class="home-half gradient">
               <div>
-                <img
-                  src="https://mgl.gogo.mn/newsn/v4/images/comment-light.81abc418.svg"
-                  alt=""
-                />
-                <span>1</span>
+                <span>Түүхэн зураг</span>
+              </div>
+              <h2>
+                Түүхэн баримт: Төрийн алба хаах боломжтой залуусыг сурган
+                боловсруулах анхны хичээл 100 жилийн өмнө эхэлжээ
+              </h2>
+              <span
+                >Монгол Улсад төрийн удирдах албан хаагчдыг бэлтгэдэг Удирдлагын
+                академи байгуулагдсаны 100 жилийн ой тохиож байна.
+              </span>
+              <div>
+                <button>
+                  <i class="fa fa-share icon"></i>
+                  <span>15</span>
+                </button>
+                <div>
+                  <img
+                    src="https://mgl.gogo.mn/newsn/v4/images/comment-light.81abc418.svg"
+                    alt=""
+                  />
+                  <span>1</span>
+                </div>
               </div>
             </div>
+            <div class="home-half">
+              <img
+                src="https://mgl.gogo.mn/newsn/thumbnail/1000/np/2024/04/10/5211567/lead_ac8-105710-1845674368.jpeg"
+                alt=""
+                width="100%"
+              />
+            </div>
           </div>
-          <div>
-            <img
-              src="https://mgl.gogo.mn/newsn/thumbnail/1000/np/2024/04/10/5211567/lead_ac8-105710-1845674368.jpeg"
-              alt=""
-            />
+          <div class="flex">
+            <div>
+              <img
+                src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2024/04/317694-11042024-1712794260-1948168218-437128595_18163510816306051_8964753933744878388_n.jpg"
+                alt=""
+                width="234px"
+              />
+              <h2>
+                3х3 сагсан бөмбөгийн Олимпын эрхийн тэмцээн маргааш эхэлнэ
+              </h2>
+              <div>
+                <button>
+                  <i class="fa fa-share"></i>
+                  <span>15</span>
+                </button>
+                <div>
+                  <img
+                    src="https://mgl.gogo.mn/newsn/v4/images/comment-light.81abc418.svg"
+                    alt=""
+                  />
+                  <span>1</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2024/04/317694-11042024-1712794260-1948168218-437128595_18163510816306051_8964753933744878388_n.jpg"
+                alt=""
+                width="234px"
+              />
+              <h2>
+                3х3 сагсан бөмбөгийн Олимпын эрхийн тэмцээн маргааш эхэлнэ
+              </h2>
+              <div>
+                <button>
+                  <i class="fa fa-share"></i>
+                  <span>15</span>
+                </button>
+                <div>
+                  <img
+                    src="https://mgl.gogo.mn/newsn/v4/images/comment-light.81abc418.svg"
+                    alt=""
+                  />
+                  <span>1</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2024/04/317694-11042024-1712794260-1948168218-437128595_18163510816306051_8964753933744878388_n.jpg"
+                alt=""
+                width="234px"
+              />
+              <h2>
+                3х3 сагсан бөмбөгийн Олимпын эрхийн тэмцээн маргааш эхэлнэ
+              </h2>
+              <div>
+                <button>
+                  <i class="fa fa-share"></i>
+                  <span>15</span>
+                </button>
+                <div>
+                  <img
+                    src="https://mgl.gogo.mn/newsn/v4/images/comment-light.81abc418.svg"
+                    alt=""
+                  />
+                  <span>1</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                src="https://mgl.gogo.mn/banner_gogo/banner/2024/04/05/news-b2/videourl/1712289534/B2.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
-        <div></div>
       </div>
+      <div class="story"></div>
+      <div class="videoContent"></div>
+      <footer></footer>
     </div>
   </body>
 </html>
