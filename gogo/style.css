@@ -39,7 +39,7 @@ body {
 
 /* headers */
 .header {
-  width: 57%;
+  width: 90%;
   justify-content: space-between;
 }
 
@@ -102,7 +102,7 @@ a {
 
 .gogo-home {
   box-sizing: border-box;
-  width: 57%;
+  width: 90%;
 }
 
 .home-half {
