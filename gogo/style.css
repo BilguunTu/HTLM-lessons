@@ -452,3 +452,15 @@ li p {
   width: 100%;
   background-color: #fdfaf5;
 }
+.video {
+  width: 100vw;
+  height: 400px;
+  background-color: #000;
+}
+
+.video-container {
+  background-color: #fdfaf5;
+  width: 1180px;
+  height: 100%;
+  margin: auto;
+}
