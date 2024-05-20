@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bgGray {
+  width: 100%;
+  background-color: gray;
+}
+
+.container {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+.flex-direction {
+  flex-direction: column;
+}
+.align-item {
+  align-items: center;
+}
+.justify-content {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.ContentImg {
+  width: 240px;
+  height: 280px;
+  background-color: orange;
+  margin: 20px;
+}
+
+.ContentText {
+  padding: 24px;
+  gap: 16px;
+}
+.skill {
+  height: 230px;
+  width: 230px;
+  margin: 40px;
+  background-color: aqua;
+}
+.experience {
+  height: 230px;
+  width: 230px;
+  margin: 40px;
+  background-color: brown;
+}
+
+p {
+  text-align: justify;
+}
+@media only screen and (min-width: 1200px) {
+  .bgGray {
+    display: flex;
+    justify-content: center;
+  }
+  .bgWhite {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    width: 1140px;
+  }
+  .Content {
+    flex-direction: row-reverse;
+  }
+  .Content-bg {
+    flex-direction: row;
+  }
+}
